@@ -1,0 +1,25 @@
+# Ignore everything by default
+*
+
+# Whitelist .cs files
+!*.cs
+
+# Optional: Also whitelist directories (if you have .cs files in subdirectories)
+!*/
+
+# Optional: Explicitly ignore build and other non-source code files
+# Ignore binary files
+*.exe
+*.dll
+*.pdb
+
+# Ignore build directories
+bin/
+obj/
+
+# Ignore Visual Studio specific files
+.vscode/
+*.user
+*.suo
+*.cache
+*.log
